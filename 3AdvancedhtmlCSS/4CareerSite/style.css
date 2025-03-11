@@ -6,7 +6,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: #FFF5EE;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqIgUjPjTeZGOE3o34pDYBCmrxgpBLO_rS7w&s");
 }
 a {
     font-size: 16px;
@@ -18,11 +18,13 @@ iframe {
 }
 .header {
     border-style: solid;
-    
+    background-color: #FFF5EE;
 }
 .content {
-
+    background-color: #FFF5EE;
+    height: 80%;
+    width: 70%;
 }
 .footer {
-
+    background-color: #FFF5EE;
 }
