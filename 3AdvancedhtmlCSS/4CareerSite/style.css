@@ -16,16 +16,16 @@ iframe {
     height: 600px;
     width: 100%;
 }
-.header {
+header {
     border-style: solid;
     background-color: #FFF5EE;
 }
-.content {
+main {
     background-color: #FFF5EE;
     height: 80%;
     width: 70%;
 }
-.footer {
+footer {
     background-color: #FFF5EE;
 }
 .job-title {
