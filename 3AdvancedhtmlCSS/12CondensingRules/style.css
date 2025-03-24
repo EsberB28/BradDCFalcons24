@@ -1,25 +1,28 @@
-
-.renaissance{
-    background-color:DarkCyan;
-    color:white;
+.renaissance {
+    background-color: DarkCyan;
+    color: white;
 }
 
-.impression{
-    background-color:MediumAquaMarine ;
-    color:white;
+.impression {
+    background-color: MediumAquaMarine;
+    color: white;
 }
 
-.cubism{
-    background-color:DarkSalmon ;
-    color:white;
+.cubism {
+    background-color: DarkSalmon;
+    color: white;
 }
 
-.surrealism{
-    background-color:PaleGoldenRod;
-    color:white;
+.surrealism {
+    background-color: PaleGoldenRod;
+    color: white;
 }
 
 th {
-    font-weight:bolder;
-    font-size:22px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+#color {
+    color: black;
 }
