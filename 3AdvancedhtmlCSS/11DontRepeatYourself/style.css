@@ -18,6 +18,7 @@ a {
     /* sets the border to make it look like a button */
     text-decoration: none;
     /* removes the underline from the link */
+    color: white;
 }
 
 li {
@@ -29,6 +30,7 @@ li {
 
 .featured {
     font-size: 64px;
+    color: white;
 }
 
 #color {
