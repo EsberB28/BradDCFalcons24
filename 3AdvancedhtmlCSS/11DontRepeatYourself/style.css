@@ -9,7 +9,6 @@ body {
     background-color: #92aa58;
     text-align: center;
     /* centers all of the elements in the body */
-    color: #aa6458;
 }
 
 /** Styles for the "buttons" **/
@@ -19,21 +18,15 @@ a {
     text-decoration: none;
     /* removes the underline from the link */
     color: white;
+    background-color: #baaf5d;
 }
 
 li {
     margin: 10px;
     /* adds space between links */
-    background-color: #58aa88;
     font-size: 24px;
 }
 
 .featured {
     font-size: 64px;
-    color: white;
-}
-
-#color {
-    color: white;
-    background-color: #baaf5d;
 }
