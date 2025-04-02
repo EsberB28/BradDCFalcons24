@@ -24,9 +24,13 @@ main {
     background-color: #FFF5EE;
     height: 80%;
     width: 70%;
+    margin: 15px;
+    padding: 10px;
 }
 footer {
     background-color: #FFF5EE;
+    margin: 50px;
+    padding: 10px;
 }
 .job-title {
     font-weight: bold;
