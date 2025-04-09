@@ -47,7 +47,7 @@ div.platter {
 .label {
     color: white;
     text-shadow: 2px 2px 3px gray;
-    visibility: hidden; // hide the text for now
+    visibility: hidden; /* hide the text for now*/
 }
 
 img {
@@ -64,9 +64,9 @@ body {
 }
 
 ul {
-    list-style-type: none; // remove bullets
+    list-style-type: none; /* remove bullets*/
 }
 
 li {
-    display: inline-flex; // force list items to be in one line
+    display: inline-flex; /* force list items to be in one line*/
 }
