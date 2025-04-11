@@ -33,6 +33,25 @@
     background-image: url(https://codehs.com/uploads/de4f6e02deb0087f1f5b1ad1a7dcaba8);
 }
 
+.platter:hover .label {
+    visibility: visible;
+}
+
+.platter:hover {
+    animation: serveFilter 3s forwards;
+}
+
+@keyframes serveFilter {
+    from {
+        height: 200px;
+        width: 200px;
+    }
+
+    to {
+        height: 400px;
+        width: 400px;
+    }
+}
 
 /* Put your styles ABOVE this line */
 div.platter {
@@ -47,7 +66,8 @@ div.platter {
 .label {
     color: white;
     text-shadow: 2px 2px 3px gray;
-    visibility: hidden; /* hide the text for now*/
+    visibility: hidden;
+    /* hide the text for now*/
 }
 
 img {
@@ -64,9 +84,11 @@ body {
 }
 
 ul {
-    list-style-type: none; /* remove bullets*/
+    list-style-type: none;
+    /* remove bullets*/
 }
 
 li {
-    display: inline-flex; /* force list items to be in one line*/
+    display: inline-flex;
+    /* force list items to be in one line*/
 }
