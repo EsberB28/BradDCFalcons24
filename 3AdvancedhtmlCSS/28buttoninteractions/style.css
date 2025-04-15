@@ -18,7 +18,11 @@ button {
 .clickable:hover {
     background-color: #78b9fa;
 }
+.clickable:active {
+    background-color: black;
+}
 
 .unclickable {
     background-color: grey;
+    cursor: not-allowed;
 }

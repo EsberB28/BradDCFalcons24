@@ -36,21 +36,10 @@
 .platter:hover .label {
     visibility: visible;
 }
-
 .platter:hover {
-    animation: serveFilter 3s forwards;
-}
-
-@keyframes serveFilter {
-    from {
-        height: 200px;
-        width: 200px;
-    }
-
-    to {
-        height: 400px;
-        width: 400px;
-    }
+    width: 400px;
+    height: 400px;
+    transform: rotate(360deg)
 }
 
 /* Put your styles ABOVE this line */
@@ -60,6 +49,7 @@ div.platter {
     height: 200px;
     width: 200px;
     background-image: url("https://codehs.com/uploads/89cf9fba5b5692f3062d7b671ace4feb");
+    transition: width 2s, height 2s, 
 
 }
 
