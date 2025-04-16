@@ -36,14 +36,11 @@
 .platter:hover .label {
     visibility: visible;
 }
+
 .platter:hover {
     width: 400px;
     height: 400px;
     transform: rotate(360deg);
-}
-
-.platter:hover {
-    transition: width 2s, height 2s, background-image 2.5s, transform 3s;
 }
 
 /* Put your styles ABOVE this line */
@@ -53,6 +50,7 @@ div.platter {
     height: 200px;
     width: 200px;
     background-image: url("https://codehs.com/uploads/89cf9fba5b5692f3062d7b671ace4feb");
+    transition: width 2s, height 2s, background-image 2.5s, transform 3s;
 
 }
 
