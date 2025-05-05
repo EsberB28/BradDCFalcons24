@@ -20,32 +20,57 @@ li {
 body {
     background-image: url(https://th.bing.com/th/id/OIP.TLadnrxQHijK_mWfJyjj5gAAAA?cb=iwp1&rs=1&pid=ImgDetMain);
 }
-.button {
-    position: absolute;
-    top: 1435px;
-    left: 350px;
-}
-.button2 {
-    position: absolute;
-    top: 477px;
-    left: 350px;
-}
-.button3 {
-    position: absolute;
-    top: 51px;
-    left: 350px;
-}
-.button4 {
-    position: absolute;
-    top: ;
-    left: ;
-}
 header {
     background-color: rgb(5, 144, 5);
 }
-.section {
-    background-color: brown;
+section {
+    background-color: rgb(201, 64, 64);
+}
+article {
+    background-color: rgb(89, 89, 230);
+}
+footer {
+    background-color: cadetblue;
+}
+img {
+    border-style:ridge;
+    border-color: black;
+}
+table {
+    border-style: dashed;
+    border-color: rgb(4, 85, 4);
+    background-color: rgb(190, 37, 37);
+}
+.button {
+    position: absolute;
+    left: 500px;
+}
+.button2 {
+    position: absolute;
+    left: 1000px;
+}
+.button3 {
+    top: 500px;
+    left: 1025px;
 }
 .div {
     background-color: white;
+}
+.article {
+    background-color: rgb(81, 181, 81);
+}
+.article2 {
+
+}
+.article3 {
+    
+}
+li:hover::after {
+    background-color:  rgb(196, 127, 0);
+    content: "Want to learn more?";
+    font-size: 18px;
+}
+li:active::after {
+    background-color:  green;
+    content: "Check out all other pages from the bottom!"
 }
