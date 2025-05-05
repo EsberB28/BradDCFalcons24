@@ -23,17 +23,22 @@ body {
 .button {
     position: absolute;
     top: 1435px;
-    left: 250px;
+    left: 350px;
 }
 .button2 {
     position: absolute;
     top: 477px;
-    left: 250px;
+    left: 350px;
 }
 .button3 {
     position: absolute;
     top: 51px;
-    left: 250px;
+    left: 350px;
+}
+.button4 {
+    position: absolute;
+    top: ;
+    left: ;
 }
 header {
     background-color: rgb(5, 144, 5);
