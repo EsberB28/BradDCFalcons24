@@ -70,12 +70,12 @@ a {
 
 .button4 {
     top: 450px;
-    left: 775px;
+    left: 900px;
 }
 
 .button5 {
-    top: 1450px;
-    left: 775px;
+    top: 1575px;
+    left: 900px;
 }
 
 .div {
@@ -186,6 +186,12 @@ button:active {
 }
 
 .img-rotate {
+    width: 500px;
+    height: 500px;
+    transition: width 2s, heights 2s, transform 2s;
+}
+
+.img-rotate2 {
     width: 500px;
     height: 500px;
     transition: width 2s, heights 2s, transform 2s;
