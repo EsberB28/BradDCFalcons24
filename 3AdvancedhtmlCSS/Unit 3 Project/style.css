@@ -192,7 +192,7 @@ button:active {
 }
 
 .img-rotate2 {
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 600px;
     transition: width 2s, heights 2s, transform 2s;
 }
