@@ -9,68 +9,184 @@ button {
     font-size: 20px;
     position: absolute;
 }
+
 p {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
+
 li {
     font-size: 24px;
     font-weight: bold;
 }
+
 body {
     background-image: url(https://th.bing.com/th/id/OIP.TLadnrxQHijK_mWfJyjj5gAAAA?cb=iwp1&rs=1&pid=ImgDetMain);
 }
+
 header {
     background-color: rgb(5, 144, 5);
 }
+
 section {
     background-color: rgb(201, 64, 64);
 }
+
 article {
-    background-color: rgb(89, 89, 230);
+    background-color: rgb(94, 94, 236);
 }
+
 footer {
     background-color: cadetblue;
 }
+
 img {
-    border-style:ridge;
+    border-style: ridge;
     border-color: black;
 }
+
 table {
     border-style: dashed;
     border-color: rgb(4, 85, 4);
     background-color: rgb(190, 37, 37);
 }
+
+a {
+    font-size: 20px;
+}
+
 .button {
-    position: absolute;
     left: 500px;
 }
+
 .button2 {
-    position: absolute;
     left: 1000px;
 }
+
 .button3 {
     top: 500px;
     left: 1025px;
 }
+
+.button4 {
+    top: 450px;
+    left: 775px;
+}
+
+.button5 {
+    top: 1450px;
+    left: 775px;
+}
+
 .div {
     background-color: white;
 }
+
 .article {
     background-color: rgb(81, 181, 81);
 }
-.article2 {
 
+.article2 {
+    background-color: rgb(43, 138, 43);
 }
+
 .article3 {
-    
+    background-color: rgb(38, 122, 38);
 }
+
+.article4 {
+    background-color: rgb(18, 99, 18);
+}
+
+.article5 {
+    background-color: #449ce4;
+}
+
+.p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    animation: popout 3s forwards;
+}
+
+@keyframes popout {
+    from {
+        filter: blur(100px)
+    }
+
+    to {
+        filter: blur(0px)
+    }
+}
+
+.img {
+    animation: enlarge 3s forwards;
+}
+
+@keyframes enlarge {
+    from {
+        filter: opacity(0);
+    }
+
+    to {
+        filter: opacity(1)
+    }
+}
+
+.img-contrast {
+    animation: contrast 7s forwards;
+}
+
+@keyframes contrast {
+    from {
+        filter: contrast(0%)
+    }
+
+    to {
+        filter: contrast(100%)
+    }
+}
+
+.chart {
+    animation: enlarge 2s forwards;
+}
+
+@keyframes enlarge {
+    from {
+        filter: blur(100px)
+    }
+
+    to {
+        filter: blur(0px)
+    }
+}
+
 li:hover::after {
-    background-color:  rgb(196, 127, 0);
+    background-color: rgb(196, 127, 0);
     content: "Want to learn more?";
     font-size: 18px;
 }
+
 li:active::after {
-    background-color:  green;
-    content: "Check out all other pages from the bottom!"
+    background-color: rgb(1, 136, 1);
+    content: "Check out all the other pages at the bottom!"
+}
+
+button:hover {
+    background-color: #0d7a09;
+}
+
+button:active {
+    background-color: #73abeb;
+}
+
+.img-rotate:hover {
+    width: 700px;
+    height: 700px;
+    transform: rotate(360deg);
+}
+
+.img-rotate {
+    width: 500px;
+    height: 500px;
+    transition: width 2s, heights 2s, transform 2s;
 }
