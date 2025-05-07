@@ -119,17 +119,11 @@ a {
 }
 
 .img {
-    animation: enlarge 3s forwards;
+    filter: grayscale(100%);
 }
 
-@keyframes enlarge {
-    from {
-        filter: opacity(0);
-    }
-
-    to {
-        filter: opacity(1)
-    }
+.img:hover {
+    filter: grayscale(0%)
 }
 
 .img-contrast {
