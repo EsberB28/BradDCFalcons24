@@ -179,20 +179,26 @@ button:active {
     background-color: #73abeb;
 }
 
-.img-rotate:hover {
-    width: 700px;
-    height: 700px;
-    transform: rotate(360deg);
-}
-
 .img-rotate {
     width: 500px;
     height: 500px;
     transition: width 2s, heights 2s, transform 2s;
 }
 
+.img-rotate:hover {
+    width: 700px;
+    height: 700px;
+    transform: rotate(360deg);
+}
+
 .img-rotate2 {
+    width: 800px;
+    height: 500px;
+    transition: width 2s, heights 2s, transform 2s;
+}
+
+.img-rotate2:hover {
     width: 1000px;
     height: 600px;
-    transition: width 2s, heights 2s, transform 2s;
+    transform: rotate(360deg);
 }
