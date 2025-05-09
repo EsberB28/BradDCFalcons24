@@ -26,7 +26,7 @@ a:hover{
     background-image: url(https://www.publicdomainpictures.net/pictures/140000/t2/ark-texture-impasto-color-swirl-.jpg);
     background-size: cover;
 }
-div.front-logo h1 {
+div.front-logo h1{
     color: white;
     margin: 50px 50px 50px 50px;
 }
@@ -43,4 +43,9 @@ main.col-md-2 {
 }
 .front-nav-3 {
     background-color: #80598d;
+}
+.h1 {
+    color: grey;
+    background-color: #D5D5D5;
+    margin: 50px 50px 50px 50px;
 }
