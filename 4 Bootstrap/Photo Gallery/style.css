@@ -7,6 +7,11 @@ h1 {
     color: #9099A2;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+}
+
 h2,
 h3,
 h4,
@@ -58,7 +63,8 @@ main div.col-md-2 {
 }
 
 .h1 {
-    color: grey;
-    background-color: #D5D5D5;
-    margin: 50px 50px 50px 50px;
+    color: #9099A2;
+    margin: 50px;
+    padding: 2em;
+    background-color: #93868f;
 }
