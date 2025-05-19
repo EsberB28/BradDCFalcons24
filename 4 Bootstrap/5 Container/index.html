@@ -38,18 +38,18 @@
 </head>
 
 <body>
-    <header>
+    <header class="background-color5">
         <h1>What is "Container"?</h1>
     </header>
     <p>Container and Fluid Container are both very important classes in
         boostrap. The main difference between the two are:
     </p>
     <main>
-        <section>
+        <section class="background-color3 invert">
             <h2>Container</h2>
             <p>The class "container" provides a fixed width container. This means
                 that, upon using this class, the result would take up a specific
-                portion of the section they're coding. It's width would also change
+                portion of the section they're coding. Its width would also change
                 according to the screens viewing it. For instance, it would appear
                 smaller on a phone than it would on a laptop.
             </p>
@@ -69,14 +69,25 @@
                         <img class="rounded-circle" src="img/Hello World.png" alt="Hello World">
                     </div>
                 </div>
+                <br>
+                <p><em>We can see from the above model that the background color highlights the
+                        class we applied, "container".
+                    </em></p>
+                <br>
+                <a href="https://www.w3schools.com/bootstrap5/bootstrap_containers.php"><button>Learn More!</button></a>
+                <br>
             </main>
+            <hr>
         </section>
-        <section>
+        <section class="background-color4 popout">
             <h2>Fluid-container</h2>
             <p>The .container-fluid class provides a full width container, spanning
                 the entire width of the viewport (width is always 100%). This means
                 that, upon using this class, the result would take up the entire
-                view of the section they're coding.
+                view of the section they're coding. It would also change in size
+                according to the screens viewing it, but maintains its full width on
+                larger screens; smaller screens would see it layed out a bit differently,
+                where it would most likely be lined up.
             </p>
             <p><em>Below is an example of the use of "fluid-container" in bootstrap.
                 </em></p>
@@ -95,12 +106,21 @@
                         <img class="rounded-circle" src="img/Hello World.png" alt="Hello World">
                     </div>
                 </div>
+                <br>
+                <p><em>We can see from the model above that the background color stretches out 
+                    across the whole screen, proving the full width trait. Because of that, the 
+                    images stretch out a bit farther than in the container tag.
+                </em></p>
+                <br>
+                <a href="https://www.w3schools.com/bootstrap5/bootstrap_containers.php"><button>Learn More!</button></a>
             </main>
         </section>
         <hr>
         <footer>
-            <p>We can see that the class "fluid-container" takes up more space in the page than 
-                the class "container" does.
+            <p>We can see that the class "fluid-container" takes up more space in the page than
+                the class "container" does because its a full width container. Both work so that any
+                screen could view it, but container handles the job of fitting in the screen better.
+                In the end, both line up in their final form.
             </p>
         </footer>
     </main>

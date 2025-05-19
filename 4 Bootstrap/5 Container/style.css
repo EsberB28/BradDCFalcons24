@@ -1,16 +1,67 @@
 body {
     background-color: lightgray;
 }
+
 img {
     width: 100px;
     height: 100px;
 }
+
 p {
     font-family: 'Courier New', Courier, monospace;
 }
+
 .background-color1 {
     background-color: aliceblue;
 }
+
 .background-color2 {
     background-color: aliceblue;
+}
+
+.background-color3 {
+    background-color: rgb(133, 234, 200);
+}
+
+.background-color4 {
+    background-color: bisque;
+}
+
+.background-color5 {
+    background-color: rgb(196, 75, 75);
+}
+
+button {
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    font-size: 20px;
+}
+.popout {
+    animation: popout 2s forwards;
+}
+@keyframes popout {
+    from {
+        filter: blur(100px)
+    }
+
+    to {
+        filter: blur(0px)
+    }
+}
+.invert {
+    animation: invert 2s forwards;
+}
+@keyframes invert {
+    from {
+        filter: invert(100%)
+    }
+
+    to {
+        filter: invert(0%)
+    }
 }
