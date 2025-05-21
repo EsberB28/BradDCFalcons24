@@ -68,3 +68,8 @@ main div.col-md-2 {
     padding: 2em;
     background-color: #93868f;
 }
+.header h1 {
+    background-color: rgb(132, 15, 132);
+    margin: 50px;
+    padding: 50px;
+}
