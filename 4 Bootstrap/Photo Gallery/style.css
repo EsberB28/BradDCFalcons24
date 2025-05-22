@@ -65,11 +65,6 @@ main div.col-md-2 {
 .h1 {
     color: #9099A2;
     margin: 50px;
-    padding: 2em;
-    background-color: #93868f;
-}
-.header h1 {
-    background-color: rgb(132, 15, 132);
-    margin: 50px;
     padding: 50px;
+    background-color: purple;
 }
