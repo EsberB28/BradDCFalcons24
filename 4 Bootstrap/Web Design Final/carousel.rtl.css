@@ -100,3 +100,9 @@ body {
     font-size: 3.5rem;
   }
 }
+.blue-text {
+  color: blue;
+}
+.red-text {
+  color: red;
+}
