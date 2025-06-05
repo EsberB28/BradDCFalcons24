@@ -144,3 +144,11 @@ img {
   border-style: ridge;
   border-width: 5px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Amiri, Georgia, "Times New Roman", serif;
+}

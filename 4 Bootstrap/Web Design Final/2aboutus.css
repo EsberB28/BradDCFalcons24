@@ -11,7 +11,14 @@
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Amiri, Georgia, "Times New Roman", serif;
+}
 .site-header a {
   color: #8e8e8e;
   transition: color .15s ease-in-out;
@@ -83,4 +90,7 @@
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+.background-image {
+  background-image: url(img/Fifa\ Trophy\ Background.jpg);
 }
