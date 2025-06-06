@@ -91,19 +91,16 @@ h6 {
     font-size: 3.5rem;
   }
 }
-.background-image {
+div.background-image {
   background-image: url(img/2\ about\ us/2Fifa\ Trophy\ Background.jpg);
 }
-.white-text {
+h1.white-text {
   color: white;
 }
-.styled-footer {
+footer.styled-footer {
   padding: 2.5rem 0;
   color: #727272;
   text-align: center;
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
-}
-.black-text {
-  color: black;
 }

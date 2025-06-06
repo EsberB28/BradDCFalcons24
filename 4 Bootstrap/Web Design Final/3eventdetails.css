@@ -102,20 +102,7 @@ h6 {
   color: #727272;
 }
 
-/*
- * Footer
- */
-.blog-footer {
-  padding: 2.5rem 0;
-  color: #727272;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
-}
 
-.blog-footer p:last-child {
-  margin-bottom: 0;
-}
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -131,10 +118,13 @@ h6 {
   }
 }
 
-.black-text {
-  color: black;
-}
-
-.border-style {
-  border-style: double;
+/*
+ * Footer
+ */
+footer.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
 }
