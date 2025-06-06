@@ -130,3 +130,11 @@ h6 {
     font-size: 3.5rem;
   }
 }
+
+.black-text {
+  color: black;
+}
+
+.border-style {
+  border-style: double;
+}
